@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class Main {
     static Scanner scanner = new Scanner(System.in);
-    public static Movie movie = new Movie();
+    public static Movie movie;
 
     public static void main(String[] args) throws IOException {
         System.out.println("Welcome to The Force Awakens Movie stats. Here are your stats:");

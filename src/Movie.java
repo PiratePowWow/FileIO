@@ -17,10 +17,10 @@ public class Movie {
     private boolean isPartofSeries;
     private boolean wouldRecommend;
 
-    public Movie() {
+    private Movie() {
     }
 
-    public Movie(String title, int stars, String genre, boolean isPartofSeries, boolean wouldRecommend) {
+    private Movie(String title, int stars, String genre, boolean isPartofSeries, boolean wouldRecommend) {
         this.title = title;
         this.stars = stars;
         this.genre = genre;
